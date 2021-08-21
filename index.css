@@ -1,0 +1,205 @@
+body{
+    background-color: #211E1E;
+    color:white;
+}
+
+.navbar-brand{
+    font-family: 'WindSong', cursive;
+}
+
+/* Home */
+.home{
+    background: url(./assets/home.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.home .homeinfo {
+    margin-top: 15%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.home .btn1 {
+    height: 45px;
+    width: 140px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: bold;
+
+}
+
+.home .btn2 {
+    height: 45px;
+    width: 140px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: black;
+}
+
+.features p{
+    color: #C1BFBF;
+}
+
+/* Menu */
+.menu{
+    color: black;
+}
+
+.menu p{
+    color: grey;
+}
+
+/* About us */
+.about p{
+    color: #C1BFBF;
+}
+.about .p1{
+    font-size: 1.4rem;
+}
+
+/* Reviews */
+.reviews{
+    color: black;
+}
+
+.reviews p{
+    color: grey;
+}
+
+.reviews .fa{
+    color: gold;
+    outline: gold;
+
+}
+
+.reviews .profile{
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+/* Contact Us */
+.contact p{
+    color: #C1BFBF;
+}
+
+/* Location */
+.map{
+
+    margin-left: 13%;
+    width: 800px;
+    height:600px; 
+}
+
+img:hover{
+    transform: scale(0.9);
+    transition: transform 1s, filter 2s ease-in-out;
+}
+
+@media only screen and (max-width:1220px) {
+    .map{
+
+        margin-left: 0px;
+        width: 700px;
+        height:600px; 
+
+    }
+    
+}
+
+@media only screen and (max-width:1024px) {
+    .map{
+
+        margin-left: 13%;
+        width: 700px;
+        height:600px; 
+
+    }
+    
+}
+
+@media only screen and (max-width:991px) {
+    .map{
+
+        margin-left: 0px;
+        width: 540px;
+        height:600px; 
+
+    }
+    
+}
+
+@media only screen and (max-width:740px) {
+    .map{
+
+        margin-left: 0px;
+        width: 500px;
+        height:600px; 
+
+    }
+    
+}
+
+@media only screen and (max-width:640px) {
+    .map{
+
+        margin-left: 0px;
+        width: 400px;
+        height:600px; 
+
+    }
+    
+}
+
+@media only screen and (max-width:540px) {
+    .map{
+
+        margin-left: 0px;
+        width: 350px;
+        height:600px; 
+
+    }
+    
+}
+
+@media only screen and (max-width:360px) {
+    .map{
+
+        margin-left: 0px;
+        width: 300px;
+        height:600px; 
+
+    }
+    
+}
+
+
+@media only screen and (max-width:280px) {
+    .map{
+
+        margin-left: 0px;
+        width: 250px;
+        height:600px; 
+
+    }
+    
+}
